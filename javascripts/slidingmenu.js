@@ -1,0 +1,1 @@
+(function(){"use strict";$(function($){$('#sm-trigger, .menu-close').on('click',function(){$('#sm-trigger').toggleClass('active');$('#mastwrap').toggleClass('sliding-toright');$('#sm').toggleClass('menu-open');$('#mastwrap').addClass('nav-opened')});$('#mastwrap').on('click',function(){$('#mastwrap').removeClass('sliding-toright');$('#sm').removeClass('menu-open')})})})();
